@@ -1,11 +1,11 @@
 {
-    "name": "personal_portfolio",
-    "short_name": "personal_portfolio",
+    "name": "Karan Giri",
+    "short_name": "Karan Giri",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Hi I Am Karan Giri And I'm Android Fresher Developer, I Have Created This Portfolio Using Flutter.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
