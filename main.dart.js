@@ -29003,8 +29003,8 @@ case 2:return B.xg
 case 1:return B.xf
 case 3:return B.KX
 case 4:return B.xh}},
-J2(a){var s=0,r=A.X(t.y),q,p,o,n,m,l,k
-var $async$J2=A.Y(function(b,c){if(b===1)return A.U(c,r)
+J2(a,b){var s=0,r=A.X(t.y),q,p,o,n,m,l,k
+var $async$J2=A.Y(function(c,d){if(c===1)return A.U(d,r)
 while(true)switch(s){case 0:n=$.avv()
 m=a.j(0)
 l=A.aQ3(B.F0)
@@ -29012,7 +29012,7 @@ k=B.d.du(m,"http:")||B.d.du(m,"https:")
 if(l!==B.xf)if(l!==B.xg){p=k&&l===B.xe
 o=p}else o=!0
 else o=!0
-q=n.amD(m,!0,!0,B.IK,l===B.xh,o,o,null)
+q=n.amD(m,!0,!0,B.IK,l===B.xh,o,o,b)
 s=1
 break
 case 1:return A.V(q,r)}})
@@ -80595,7 +80595,7 @@ while(true)switch(s){case 0:q=t.N
 p=A.Ig(null,"karangiri121@gmail.com",new A.aaB().$1(A.aI(["subject","Idea Or Friendly Hello!"],q,q)),null,"mailto")
 s=2
 return A.a_(A.IW(p),$async$$0)
-case 2:if(b)A.J2(p)
+case 2:if(b)A.J2(p,"_blank")
 return A.V(null,r)}})
 return A.W($async$$0,r)},
 $S:20}
@@ -80681,7 +80681,7 @@ while(true)switch(s){case 0:q=t.N
 p=A.Ig(null,"karangiri121@gmail.com",new A.a4e().$1(A.aI(["subject","Idea Or Friendly Hello!"],q,q)),null,"mailto")
 s=2
 return A.a_(A.IW(p),$async$$0)
-case 2:if(b)A.J2(p)
+case 2:if(b)A.J2(p,null)
 return A.V(null,r)}})
 return A.W($async$$0,r)},
 $S:20}
@@ -80756,7 +80756,7 @@ var $async$$0=A.Y(function(a,b){if(a===1)return A.U(b,r)
 while(true)switch(s){case 0:p=A.jX(q.a.d,0,null)
 s=2
 return A.a_(A.IW(p),$async$$0)
-case 2:if(b)A.J2(p)
+case 2:if(b)A.J2(p,"_blank")
 return A.V(null,r)}})
 return A.W($async$$0,r)},
 $S:20}
@@ -80787,7 +80787,7 @@ var $async$$0=A.Y(function(a,b){if(a===1)return A.U(b,r)
 while(true)switch(s){case 0:p=A.jX(q.a.e,0,null)
 s=2
 return A.a_(A.IW(p),$async$$0)
-case 2:if(b)A.J2(p)
+case 2:if(b)A.J2(p,"_blank")
 return A.V(null,r)}})
 return A.W($async$$0,r)},
 $S:20}
