@@ -80687,14 +80687,28 @@ s.toString
 A.oB(s,0,B.bY,B.aj,B.o)},
 $S:0}
 A.al8.prototype={
-$0(){var s=0,r=A.X(t.H),q=this,p,o,n
-var $async$$0=A.Y(function(a,b){if(a===1)return A.U(b,r)
-while(true)switch(s){case 0:o=t.N
-n=A.Ig(null,"karangiri121@gmail.com",new A.al9().$1(A.aI(["subject","Idea Or Friendly Hello!"],o,o)),null,"mailto")
-try{A.J1(n,null)
-o=q.a
-o.az(new A.al1(o))}catch(m){o=q.a
-o.az(new A.al2(o))}return A.V(null,r)}})
+$0(){var s=0,r=A.X(t.H),q=1,p,o=this,n,m,l,k
+var $async$$0=A.Y(function(a,b){if(a===1){p=b
+s=q}while(true)switch(s){case 0:m=t.N
+l=A.Ig(null,"karangiri121@gmail.com",new A.al9().$1(A.aI(["subject","Idea Or Friendly Hello!"],m,m)),null,"mailto")
+q=3
+s=6
+return A.a_(A.J1(l,null),$async$$0)
+case 6:m=o.a
+m.az(new A.al1(m))
+q=1
+s=5
+break
+case 3:q=2
+k=p
+m=o.a
+m.az(new A.al2(m))
+s=5
+break
+case 2:s=1
+break
+case 5:return A.V(null,r)
+case 1:return A.U(p,r)}})
 return A.W($async$$0,r)},
 $S:20}
 A.al9.prototype={
